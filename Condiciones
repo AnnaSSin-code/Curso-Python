@@ -1,0 +1,64 @@
+#numero = 123
+numero = -3
+if numero == 123:  #false o true
+    print (f"numero es igual a 123")
+
+else:
+    print("numero no es igual a 123")
+
+print("Estoy fuera del IF")
+
+if numero < 0:
+    print("numero es negativo")
+
+if numero > 0:
+    print("numero es positivo")
+
+#IF espera un booleano
+if True:
+    print()
+
+    if False:
+        print()
+
+#else if
+calificacion = 90
+
+if calificacion >= 90:
+    print("A")
+elif calificacion >= 80:
+    print("B")
+elif calificacion >= 70:
+    print("C")
+elif calificacion >= 60:
+    print("D")
+else:
+    print("Reprobado")
+
+#Operadores condicionales
+# <, >, ==, !=  y se pueden cominar  <=, >=. 
+edad = 18
+
+if edad >= 18:
+    print("Si. Puede votar")
+    if edad >= 90:
+        print("Espera. Eres muy viejo para votar")
+else:
+    print("A tu casa a ver Pocoyo")
+
+# AND, OR, XOR
+
+#And
+print(True and True)
+
+#OR
+Print(True or False)
+print(True or True)
+
+#XOR
+Print(True != False)
+
+if edad >= 18 and edad < 90:
+    print("Puedes votar")
+else:
+    print("No puedes votar")

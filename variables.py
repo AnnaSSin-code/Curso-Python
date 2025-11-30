@@ -14,6 +14,12 @@ cadena = "hola como estas, yo muy bien. ¿Y tu?"
 
 numeros = "numeros jaja" 
 
+
+#booleano / true o false
+booleano = True
+booleano2 = False
+#Binario 01
+
 #mal uso de identificadores
 #Contraintuitivo
 palabra = 123
